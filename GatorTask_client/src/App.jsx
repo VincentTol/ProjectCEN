@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Signup from './Signup';
 import Login from './Login';
 import Homepage from './Homepage';
-k
 
 function App() {
   return (
