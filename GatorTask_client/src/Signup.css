@@ -1,3 +1,34 @@
-.blue-background {
-    background-color: blue;
+:root {
+    --gradient-pink: #514047;
+    --gradient-cyan: #292C2D;
+    --background-base: rgb(33,33,33);
+}
+
+body, html {
+    background: linear-gradient(to right, transparent 60%, #5f4854),
+                radial-gradient(circle at bottom left, #313f46, transparent),
+                rgb(33,33,33);
+    /**/
+}
+
+.logo {
+    position: absolute;
+    top: '5%';
+    left: '5%';
+    width: 50%;
+    margin: 12px;
+}
+
+.signup-label {
+    font-family: 'Noto Serif';
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.button-register {
+    background-color: #80D4CA;
 }
