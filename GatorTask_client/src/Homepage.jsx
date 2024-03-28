@@ -9,10 +9,6 @@ function Homepage() {
     const [newDesc, setFormDesc] = useState("");
     const [selectedCompart, setSelectedCompart] = useState(1);
 
-    const addTasks = (event) => {
-        // Your addTasks function logic goes here
-    };
-
     let i = 0;
 
     return (

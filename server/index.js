@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://1vincenttoledo:qx5K04Thox5gFgGN@cluster0.vr0aczg.mongodb.net/")
+mongoose.connect("mongodb+srv://1vincenttoledo:IJ8AaWCOFMMz5aGp@cluster0.vr0aczg.mongodb.net/")
 
 app.post("/login", (req,res) => {
     const {email, password} = req.body;
