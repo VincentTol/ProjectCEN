@@ -77,12 +77,12 @@ function Signup() {
                             />
                         </div>
 
-                        <button type="submit" className="btn btn-success w-100 rounded-0 bg-blue-500">
+                        <button type="submit" className="btn btn-success button-register w-100 border rounded-0 border-color-blue-500">
                             Register
                         </button>
                     </form>
 
-                    <p>Already have an Account</p>
+                    <p className="italic text-slate-400 mt-3">Already have an Account?</p>
 
                     <Link to="/login" className="btn btn-default border w-100 bg-light rounded-0 text-description-none">
                         Login
